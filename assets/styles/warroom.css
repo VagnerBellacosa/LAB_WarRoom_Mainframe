@@ -1,0 +1,95 @@
+body {
+  background:#050505;
+  color:#00FF66;
+  font-family:"Courier New", monospace;
+  margin:0;
+}
+
+header {
+  background:#111;
+  padding:12px;
+  border-bottom:3px solid #00FF66;
+}
+
+h1 {
+  margin:0;
+  font-size:20px;
+  letter-spacing:2px;
+}
+
+.ledPanel {
+  margin-top:8px;
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  align-items:center;
+}
+
+.led {
+  width:14px;
+  height:14px;
+  border-radius:50%;
+  background:#222;
+}
+
+.red{background:#f00}
+.green{background:#0f0}
+.yellow{background:#ff0}
+.blue{background:#0af}
+.white{background:#eee}
+.orange{background:#f80}
+
+.on{opacity:1}
+.off{opacity:.2}
+
+.blink{animation:blink .6s infinite}
+.blink-slow{animation:blink 1.4s infinite}
+
+@keyframes blink {50%{opacity:.2}}
+
+#visitorBox {
+  margin-top:12px;
+  background:#000;
+  border:2px solid #00FF66;
+  padding:8px;
+  display:inline-block;
+}
+
+.label {
+  font-size:11px;
+  color:#aaa;
+}
+
+#visitorCounter {
+  font-size:28px;
+  letter-spacing:4px;
+  text-shadow:0 0 12px #00FF66;
+}
+
+#terminal {
+  padding:16px;
+}
+
+#screen {
+  min-height:460px;
+  white-space:pre;
+}
+
+.cmd { margin-top:10px }
+
+input {
+  background:#000;
+  border:none;
+  color:#00FF66;
+  font-family:inherit;
+  font-size:16px;
+  width:80%;
+  outline:none;
+}
+
+footer {
+  background:#111;
+  border-top:2px solid #00FF66;
+  padding:8px;
+  font-size:14px;
+}

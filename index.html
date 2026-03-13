@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+
+<title>IBM MVS War Room — SysProg Crisis Simulator</title>
+
+<meta name="description" content="Simulador avançado de troubleshooting MVS z/OS com console 3270 SDSF para treinamento de SysProg.">
+<meta name="keywords" content="mainframe, MVS, zOS, SDSF, JES2, sysprog, IBM Z, 3270, troubleshooting">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="assets\style\warroom.css">
+</head>
+
+<body>
+
+<header>
+
+<h1>IBM MVS OPERATIONS WAR ROOM</h1>
+
+<div class="ledPanel">
+
+<div class="led red blink"></div>CPU
+<div class="led yellow blink-slow"></div>CHANNEL
+<div class="led green on"></div>I/O
+<div class="led blue blink"></div>VTAM
+<div class="led white blink-slow"></div>SPOOL
+<div class="led orange off" id="tapeLed"></div>TAPE
+
+</div>
+
+<div id="visitorBox">
+<span class="label">GLOBAL OPS PRESENCE</span>
+<div id="visitorCounter">000000000</div>
+</div>
+
+<div id="visitorBox">
+  <span class="label">GLOBAL OPS Real PRESENCE</span>
+  <div id="visitorCounter">CONNECTING...</div>
+</div>
+
+</header>
+
+<main>
+
+<div id="terminal">
+
+<pre id="screen"></pre>
+
+<div class="cmd">
+===> <input id="cmdInput" autofocus autocomplete="off">
+</div>
+
+</div>
+
+</main>
+
+<footer>
+PF1=HELP | ENTER=EXECUTE | SYS=ZOS1 | MODE=CRISIS
+</footer>
+
+<script src="assets\scripts\warroom.js"></script>
+
+</body>
+</html>
