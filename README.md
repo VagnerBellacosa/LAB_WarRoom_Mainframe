@@ -8,14 +8,13 @@ Projetado para treinamento de **SysProg, operadores e profissionais de infraestr
 
 # 🛰️ IBM MVS Operations War Room — 3270 SysProg Crisis Simulator
 
-![Version](https://img.shields.io/badge/version-1.0-blue)
-![Status](https://img.shields.io/badge/status-active-success)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Platform](https://img.shields.io/badge/platform-Web-black)
-![Mainframe](https://img.shields.io/badge/IBM-Z%20Compatible-ff9900)
-![Language](https://img.shields.io/badge/HTML%2FCSS%2FJS-Vanilla-yellow)
-![Training](https://img.shields.io/badge/use-Training-blueviolet)
-![Crisis Mode](https://img.shields.io/badge/mode-CRISIS-red)
+![IBM Z](https://img.shields.io/badge/IBM-Z%20Mainframe-0062FF)
+![3270](https://img.shields.io/badge/Terminal-3270-00FF66)
+![SDSF](https://img.shields.io/badge/Subsystem-SDSF-yellow)
+![Crisis Mode](https://img.shields.io/badge/Mode-CRISIS-red)
+![Training](https://img.shields.io/badge/Use-Professional%20Training-blueviolet)
+![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen)
+![Visitors](https://img.shields.io/badge/Global%20Ops-Active-orange)
 
 ## 🎯 Objetivo
 
