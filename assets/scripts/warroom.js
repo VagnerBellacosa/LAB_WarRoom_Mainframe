@@ -37,6 +37,22 @@ const incidents = [
 "SYSTEM DEGRADED"
 ];
 
+function showSDSFMenu(){
+
+screen.textContent =
+` SDSF PRIMARY OPTION MENU  SYS=ZOS1
+
+ DA  Active users
+ I   Input queue
+ ST  Status of jobs
+ O   Output queue
+ H   Held output
+ LOG System log
+ INIT Initiators
+
+ COMMAND INPUT ===>`;
+}
+
 function newIncident() {
 
   const msg = incidents[Math.floor(Math.random()*incidents.length)];
