@@ -1,33 +1,44 @@
-body{
-  background:#000;
-  color:#00FF00;
-  font-family: "Courier New", Consolas, monospace;
-  margin:0;
+/* ===== RESET TOTAL ===== */
+
+html, body {
+  background: #000 !important;
+  color: #00FF00 !important;
+  font-family: "Courier New", Consolas, monospace !important;
+  margin: 0;
+  padding: 0;
 }
 
-/* Área principal */
+/* Remove aparência Bootstrap branca */
+
+* {
+  background-color: transparent !important;
+  color: #00FF00 !important;
+  border-color: #00FF00 !important;
+  box-shadow: none !important;
+}
+
+/* ===== CONTAINER ===== */
 
 .container-box{
   padding:20px;
   max-width:1200px;
-  margin:auto;
+  margin:20px auto;
   border:2px solid #00FF00;
 }
 
-/* Título */
+/* ===== TÍTULO ===== */
 
 h1{
   text-align:center;
   font-weight:normal;
-  color:#00FF00;
   margin-bottom:20px;
 }
 
-/* Tabela estilo terminal */
+/* ===== TABELA ===== */
 
 table{
-  border-collapse:collapse;
   width:100%;
+  border-collapse:collapse;
 }
 
 td{
@@ -36,7 +47,7 @@ td{
   vertical-align:top;
 }
 
-/* Iframe */
+/* ===== IFRAMES ===== */
 
 .preview{
   width:100%;
@@ -46,37 +57,36 @@ td{
   background:#000;
 }
 
-/* Botão estilo terminal */
+/* ===== BOTÃO ESTILO TERMINAL ===== */
 
 .open-btn{
   margin-top:8px;
   width:100%;
-  background:#000;
-  color:#00FF00;
-  border:1px solid #00FF00;
+  background:#000 !important;
+  color:#00FF00 !important;
+  border:1px solid #00FF00 !important;
 }
 
 .open-btn:hover{
-  background:#00FF00;
-  color:#000;
+  background:#00FF00 !important;
+  color:#000 !important;
 }
 
-/* Rodapé */
+/* ===== RODAPÉ ===== */
 
 footer{
   border-top:2px solid #00FF00;
   margin-top:20px;
   padding:15px;
-  text-align:left;
 }
 
-footer a{
-  color:#00FF00;
+/* Links */
+
+a{
+  color:#00FF00 !important;
   text-decoration:none;
 }
 
-footer a:hover{
+a:hover{
   text-decoration:underline;
 }
-
-
