@@ -1,58 +1,77 @@
 body{
-  background:#f5f7fa;
-  font-family:"Segoe UI", Roboto, sans-serif;
+  background:#000;
+  color:#00FF00;
+  font-family: "Courier New", Consolas, monospace;
   margin:0;
 }
 
+/* Área principal */
+
 .container-box{
-  background:#fff;
-  padding:30px;
-  margin:40px auto;
+  padding:20px;
   max-width:1200px;
-  border-radius:8px;
-  box-shadow:0 8px 25px rgba(0,0,0,0.08);
+  margin:auto;
+  border:2px solid #00FF00;
 }
+
+/* Título */
 
 h1{
   text-align:center;
-  font-weight:600;
-  margin-bottom:30px;
+  font-weight:normal;
+  color:#00FF00;
+  margin-bottom:20px;
 }
 
+/* Tabela estilo terminal */
+
 table{
-  table-layout:fixed;
+  border-collapse:collapse;
+  width:100%;
 }
 
 td{
+  border:1px solid #00FF00;
+  padding:10px;
   vertical-align:top;
-  padding:15px;
 }
+
+/* Iframe */
 
 .preview{
   width:100%;
   height:260px;
-  border:1px solid #ddd;
-  border-radius:6px;
-  margin-top:10px;
-  background:#fff;
+  border:1px solid #00FF00;
+  margin-top:8px;
+  background:#000;
 }
+
+/* Botão estilo terminal */
 
 .open-btn{
-  margin-top:10px;
+  margin-top:8px;
   width:100%;
+  background:#000;
+  color:#00FF00;
+  border:1px solid #00FF00;
 }
 
+.open-btn:hover{
+  background:#00FF00;
+  color:#000;
+}
+
+/* Rodapé */
+
 footer{
-  background:#1f2d3d;
-  color:#fff;
-  padding:25px;
-  text-align:center;
-  font-size:14px;
+  border-top:2px solid #00FF00;
+  margin-top:20px;
+  padding:15px;
+  text-align:left;
 }
 
 footer a{
-  color:#4da3ff;
-  margin:0 8px;
+  color:#00FF00;
   text-decoration:none;
 }
 
@@ -60,23 +79,4 @@ footer a:hover{
   text-decoration:underline;
 }
 
-@media (max-width:768px){
 
-  .preview{
-    height:200px;
-  }
-
-  table{
-    display:block;
-  }
-
-  tr{
-    display:block;
-  }
-
-  td{
-    display:block;
-    width:100%;
-  }
-
-}
