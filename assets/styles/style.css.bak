@@ -1,0 +1,94 @@
+/* ===== RESET TOTAL ===== */
+
+html, body{
+  background:#000;
+  color:#33FF33;
+  font-family: "Consolas", "Courier New", monospace;
+  text-shadow: 0 0 3px #33FF33;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Remove aparência Bootstrap branca */
+
+* {
+  background-color: transparent !important;
+  color: #00FF00 !important;
+  border-color: #00FF00 !important;
+  box-shadow: none !important;
+}
+
+/* ===== CONTAINER ===== */
+
+.container-box{
+  padding:20px;
+  max-width:1200px;
+  margin:20px auto;
+  border:2px solid #00FF00;
+}
+
+/* ===== TÍTULO ===== */
+
+h1{
+  text-align:center;
+  font-weight:normal;
+  margin-bottom:20px;
+}
+
+/* ===== TABELA ===== */
+
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+td{
+  border:1px solid #00FF00;
+  padding:10px;
+  vertical-align:top;
+}
+
+/* ===== IFRAMES ===== */
+
+.preview{
+  width:100%;
+  height:260px;
+  border:1px solid #00FF00;
+  margin-top:8px;
+  background:#000;
+}
+
+/* ===== BOTÃO ESTILO TERMINAL ===== */
+
+.open-btn{
+  margin-top:8px;
+  width:100%;
+  background:#000 !important;
+  color:#00FF00 !important;
+  border:1px solid #00FF00 !important;
+}
+
+.open-btn:hover{
+  background:#00FF00 !important;
+  color:#000 !important;
+}
+
+/* ===== RODAPÉ ===== */
+
+footer{
+  border-top:2px solid #00FF00;
+  margin-top:20px;
+  padding:15px;
+}
+
+/* Links */
+
+a{
+  color:#00FF00 !important;
+  text-decoration:none;
+}
+
+a:hover{
+  text-decoration:underline;
+}
